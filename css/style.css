@@ -5,10 +5,11 @@ body{
    height: 100dvh;
 
    & main {
-
+    display: flex;
 
     & h5{
         font-size: 18px;
+        justify-content: center;
     }
 
     & h1{ 
