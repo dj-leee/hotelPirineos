@@ -3,18 +3,24 @@ body{
    justify-content: center;
    align-items: center;
    height: 100dvh;
+}
 
-   & main {
-    display: flex;
+   main {
 
     & h5{
-        font-size: 18px;
+        font-size: 25px;
+        display: flex;
         justify-content: center;
     }
 
     & h1{ 
-        font-size: 32px;
+        font-size: 34px;
         font-weight: 900px;
+        color: rgb(117, 108, 108);
+
+    &:hover{
+            color: rgb(255, 0, 0);
+            cursor: pointer;
+        }
     }
    }
-}
