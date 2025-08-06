@@ -5,13 +5,14 @@ body{
     height: 100dvh;
 
    & main {
+    align-items: center;
 
     & h5{
         font-size: 18px;
     }
 
     & h1{ 
-        font-size: 14px;
+        font-size: 32px;
     }
    }
 }
